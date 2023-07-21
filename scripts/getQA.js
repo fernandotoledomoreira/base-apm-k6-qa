@@ -29,7 +29,7 @@ export const options = {
 
 export default function () {
     let f = new Faker();
-    const url = "http://10.213.83.37:8001/create-qa";
+    const url = "";
     const params = {
         headers: {
             'Content-Type': 'application/json',
